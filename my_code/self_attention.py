@@ -4,7 +4,8 @@ import torch.nn.functional as F
 import math
 
 class MultiHeadAttention(nn.Module):
-
+    """
+    """
     def __init__(self, embedding_dim=512, heads=8):
         super(MultiHeadAttention, self).__init__()
        
