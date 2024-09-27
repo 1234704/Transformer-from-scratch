@@ -7,6 +7,8 @@ class MultiHeadAttention(nn.Module):
 
     def __init__(self, embedding_dim=512, heads=8):
         super(MultiHeadAttention, self).__init__()
+        """ 
+        """
         self.embedding_dim = embedding_dim
         self.heads = heads
         self.head = self.embedding_dim // self.heads
